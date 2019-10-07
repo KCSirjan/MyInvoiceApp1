@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.hp.Invoicer.MainActivity">
+    <item
+        android:id="@+id/menuHome"
+        android:orderInCategory="100"
+        android:title="My Invoices"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menuNew"
+        android:orderInCategory="100"
+        android:title="New"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menuHelp"
+        android:orderInCategory="100"
+        android:title="Help"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menuQuit"
+        android:orderInCategory="100"
+        android:title="Exit"
+        app:showAsAction="never" />
+</menu>
